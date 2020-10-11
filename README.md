@@ -18,3 +18,12 @@ This repository contains projects worked on within my text analytics course.
 - Volkwagen had the greatest association with aspirational words (words indicative of a users desire to purchase or obtain) 
 
 [Brand/Attribute Discussion Forum Analysis](https://github.com/indialindsay/Text_Analytics_Projects/blob/master/Brand_Attribute_Forum_Text_Analysis.ipynb)
+
+## Beer Recommendation System
+#### Designed a collaborative filter combining a customer's desired features with reviews scraped from an online beer rating website to recommend top three similar products
+- Product similarity is calculating using cosine similarity and review sentiment. The cosine similarity score identifies reviews that contain our customer's desired features. The sentiment score calculates the overall manner conveyed within the reviewer's mention of the attribute. We only wanted to recommend products that contain the desired qualities mentioned in a positive manner. 
+- The overall evaluation score is the average of the product similarity scores from each review for one product. It ranges from -1 to 1; from least similar to the customer's preferences to most similar. 
+- For a customer desiring fruity, citrus, and smooth beers, the engine recommended the following: Emerald Grouper, 3rd Anniversary Imperial IPA, and Swish!
+
+[Web Scraped Product Reviews](https://github.com/indialindsay/Text_Analytics_Projects/blob/master/Web-Scraping%20Products.ipynb);
+[Recommendation System](https://github.com/indialindsay/Text_Analytics_Projects/blob/master/Recommender.ipynb)
